@@ -29,31 +29,31 @@ setdevicemodel() {
     resetprop "ro.product.product.model" "$1"
 }
 
-load_tapas()
+load_sapphire()
 {
-    echo "I:Variant-Script: Loaded tapas variant" | tee -a $LOG_PATH
-    setdevicename "tapas"
-    setdevicemodel "23021RAAEG"
+    echo "I:Variant-Script: Loaded sapphire variant" | tee -a $LOG_PATH
+    setdevicename "sapphire"
+    setdevicemodel "23129RA5FL"
 }
 
-load_topaz()
+load_sapphiren()
 {
-    echo "I:Variant-Script: Loaded topaz (NFC) variant" | tee -a $LOG_PATH
-    setdevicename "topaz"
-    setdevicemodel "23021RAA2Y"
+    echo "I:Variant-Script: Loaded sapphiren (NFC) variant" | tee -a $LOG_PATH
+    setdevicename "sapphiren"
+    setdevicemodel "2312DRAABC"
 }
 
 variant=$(resetprop ro.boot.hwname)
 
 case $variant in
-    "tapas")
-        load_tapas
+    "sapphire")
+        load_sapphire
         ;;
-    "topaz")
-        load_topaz
+    "sapphiren")
+        load_sapphiren
         ;;
     *)
-        load_tapas
+        load_sapphire
         ;;
 esac
 

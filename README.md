@@ -1,27 +1,24 @@
 # device_xiaomi_tapas-recovery
 
-Redmi Note 12 4G (codenamed _"topaz/tapas"_) is a mid-range smartphone from Xiaomi announced in March 2023.
-
-## Automated OrangeFox (Unofficial) builds
-[![GitHub Releases](https://img.shields.io/github/downloads/chickendrop89/device_xiaomi_tapas-recovery/total?style=for-the-badge&logo=github&logoColor=white&label=GitHub%20releases&labelColor=black&color=orange)](https://github.com/chickendrop89/orangefox_device_xiaomi_tapas/releases)
-[![SourceForge](https://img.shields.io/sourceforge/dt/orangefox-device-xiaomi-tapas?style=for-the-badge&logo=sourceforge&logoColor=white&label=SourceForge&labelColor=black&color=orange)](https://sourceforge.net/projects/orangefox-device-xiaomi-tapas/files)
+Redmi Note 13 4G (codenamed _"sapphire/sapphiren"_) is a mid-range smartphone from Xiaomi luanched in January 2024.
+Port from tapas(Redmi Note 12 4G)
 
 ## Device specifications
 
-Device                  | Xiaomi Redmi Note 12 4G
+Device                  | Xiaomi Redmi Note 13 4G
 -----------------------:|:-------------------------
 SoC                     | Qualcomm Snapdragon® 685 (SM6225)
 CPU                     | Octa-core (4x2.8 GHz Cortex-A73 & 4x1.9 GHz Cortex-A53)
 GPU                     | Adreno 610
-Memory                  | 4/6/8 GB RAM
+Memory                  | 6/8 GB RAM
 Shipped Android Version | 13.0
-Storage                 | 64/128 GB (UFS 2.2)
+Storage                 | 128/256 GB (UFS 2.2)
 MicroSD                 | Up to 1024 GB (1TB)
 Battery                 | Non-removable Li-Po 5000 mAh
 Dimensions              | 165.7 x 76 x 7.9 mm
 Display                 | 1080 x 2400 pixels, 6.67 inches (~395 ppi density), AMOLED, 120Hz, Dolby Vision
-Camera                  | 50 MP (wide), 2 MP (macro), 12 MP (ultrawide), 13 MP (front-wide)
+Camera                  | 108 MP (wide), 2 MP (macro), 8 MP (ultrawide), 16 MP (front-wide)
 
 ## Device picture
 
-![Redmi Note 12 4G](https://i02.appmifile.com/224_operator_sg/10/03/2023/cdf4a7f40a92668d1c8fe2fcc5045ea8.png)
+![Redmi Note 13 4G](https://acdn.mitiendanube.com/stores/443/907/products/note134g-f2b9a13dc8fb8ff8e617056989436464-640-0.jpg)

@@ -1,6 +1,6 @@
 #!/bin/bash
 
- export TARGET_DEVICE_ALT="topaz"
+ export TARGET_DEVICE_ALT="sapphire"
  export OF_MAINTAINER="chickendrop89"
  export FOX_VARIANT="A13+"
 
