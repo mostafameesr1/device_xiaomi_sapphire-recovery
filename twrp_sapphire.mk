@@ -15,10 +15,10 @@ $(call inherit-product, device/xiaomi/sapphire/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 ## Device identifier
-PRODUCT_DEVICE := sapphire
-PRODUCT_NAME := twrp_sapphire
+PRODUCT_DEVICE := sweet
+PRODUCT_NAME := twrp_sweet
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 13 4G
+PRODUCT_MODEL := M2101K6G
 PRODUCT_MANUFACTURER := $(PRODUCT_BRAND)
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

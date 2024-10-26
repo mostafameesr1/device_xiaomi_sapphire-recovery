@@ -3,8 +3,8 @@ fbe.metadata.wrappedkey=true
 vendor.gatekeeper.disable_spu=true
 
 # Platform
-ro.display.series=Redmi Note 13 4G
-ro.board.platform=bengal
+ro.display.series=Redmi Note 10 Pro 4G
+ro.board.platform=sm6150
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true

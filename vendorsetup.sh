@@ -1,7 +1,7 @@
 #!/bin/bash
 
- export TARGET_DEVICE_ALT="sapphire"
- export OF_MAINTAINER="chickendrop89"
+ export TARGET_DEVICE_ALT="sweet"
+ export OF_MAINTAINER="mostafameesr"
  export FOX_VARIANT="A13+"
 
  # Binaries & Tools
