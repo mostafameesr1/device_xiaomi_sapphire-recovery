@@ -25,19 +25,19 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/tapas'
+        default: 'device/xiaomi/sweet'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'tapas'
+        default: 'sweet'
       DEVICE_VARIANT:
         description: 'DEVICE_VARIANT'
         required: true
-        default: 'tapas/topaz-A13+'
+        default: 'sweet/sweetin-A13+'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_tapas'
+        default: 'twrp_sweet'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
@@ -143,12 +143,12 @@ jobs:
         tag_name: ${{ steps.date.outputs.builddate }}
         body: |
           Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
-          Device: ${{ github.event.inputs.DEVICE_NAME }}/topaz
+          Device: ${{ github.event.inputs.DEVICE_NAME }}/sweet
           Releaase Date: ${{ steps.date.outputs.builddate }}
 
-          * [XDA Developers Thread](https://forum.xda-developers.com/t/unofficial-recovery-13-orangefox-recovery-project-tapas-topaz.4600157/)
+          * mostafameesr
           
-          This build works for both `topaz` and `tapas` variant !!!
+          This build works for both `sweet` and `sweetin` variant !!!
 
           Known Issues:
           *
